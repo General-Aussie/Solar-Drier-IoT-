@@ -1,14 +1,6 @@
 
 // Fill-in information from your Blynk Template here
-#define BLYNK_TEMPLATE_ID "TMPLN4HMUuWk"
-#define BLYNK_DEVICE_NAME "Solar Drier"
 
-#define BLYNK_FIRMWARE_VERSION        "0.1.0"
-
-#define BLYNK_PRINT Serial
-//#define BLYNK_DEBUG
-
-#define APP_DEBUG
 
 // Uncomment your board, or configure a custom board in Settings.h
 //#define USE_SPARKFUN_BLYNK_BOARD
@@ -60,8 +52,11 @@ const int SDA_PIN = 19; //D3;
 const int SDC_PIN = 20; //D4;
 #endif
 
-String OPEN_WEATHER_MAP_APP_ID = "b8b7189b80f006b2d1627a14b901b67e";
-String OPEN_WEATHER_MAP_LOCATION_ID = "2352379";
+#input open weather map ID
+String OPEN_WEATHER_MAP_APP_ID = "";
+
+#input open weather map location ID
+String OPEN_WEATHER_MAP_LOCATION_ID = "";
 
 // Pick a language code from this list:
 // Arabic - ar, Bulgarian - bg, Catalan - ca, Czech - cz, German - de, Greek - el,
